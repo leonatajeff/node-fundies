@@ -17,7 +17,7 @@ const fs = require("node:fs/promises");
   }) */
 
   let i = 0;
-  let maxI = 1000000;
+  let maxI = 1000000000;
   const writeMany = () => {
     while (i < maxI) {
       const buff = Buffer.from(` ${i} `, "utf-8");
